@@ -16,13 +16,13 @@ public class Main {
         String s = "I am? an artist.";
 
         // Display.
-        System.out.println(s);
+        System.out.println(s); // Output: I am? an artist.
 
         // Modified string.
         s = s.replaceAll("[^a-zA-Z0-9\\s]", " ");
 
         // Display.
-        System.out.println(s);
+        System.out.println(s); // Output: I am  an artist 
 
     }
 }
